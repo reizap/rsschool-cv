@@ -12,7 +12,7 @@ Hello, my name is Misha. I am 25 years old. I have been working as a system admi
     * attentiveness     
     * ~~and so on~~
 
-#Skills
+# Skills
 _____________________       
 * bash         
 * powershell (CMD)               
