@@ -1,1 +1,1 @@
-[CV](https://reizap.github.io/rsschool-cv/)
+[My CV](https://reizap.github.io/rsschool-cv/)
