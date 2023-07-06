@@ -1,6 +1,7 @@
 .wrapper {
     max-width: 800px;
     margin: 0 auto;
+    font-family: bebasneueregular;
 }
 
 .myphoto {
@@ -37,5 +38,15 @@ header {
 
 h1 {
     margin-bottom: 0;
+    
 }
 
+@font-face {
+    font-family: "bebasneueregular";
+    font-style: normal;
+    font-weight: 400;
+    
+        src: url("./fonts/bebasneueregular.woff2") format("woff2"),
+         /* Если браузер не поддерживает woff2, загрузит woff */
+         url("./fonts/bebasneueregular.woff") format("woff");
+  }
