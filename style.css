@@ -46,6 +46,7 @@
 header {
   font-size: 24px;
   text-align: center;
+  background-color: #D3D3D3;
 }
 
 h1 {
@@ -70,17 +71,18 @@ h2 {
 }
 
 body {
-  background-color: #DCDCDC;
+  background: rgb(220, 220, 220);
+  background: radial-gradient(circle, rgba(220, 220, 220, 1) 0%, rgba(0, 0, 0, 0.6643032212885154) 100%);
 }
 
 hr {
   border-color: black;
 }
 
-header {
-  background-color: #D3D3D3;
-}
-
 .text {
   font-size: 22px;
+}
+
+.footer {
+  text-align: right;
 }
