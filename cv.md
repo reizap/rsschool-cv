@@ -1,7 +1,7 @@
 # Michael Kornishin
 _________________________________________________________
-*email - kornishin97@mail.ru    
-*github - [link](https://github.com/reizap)    
+* email - kornishin97@mail.ru    
+* github - [link](https://github.com/reizap)    
 
 # About me
 ____________     
