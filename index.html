@@ -1,11 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>My cv</title>
 </head>
-<body>
 
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Michael Kornishin </h1>
+            <p>Hello! It's me.. <s>Mario!</s></p>
+        </header>
+
+        <main>
+            <div class="container">
+                <nav class="nav">
+                    <h2>Navigation</h2>
+                    <a href="#skillz">My SKILLZ</a> </li>
+                    <a href="#education">Education</a></li>
+
+                </nav>
+                <img class="myphoto" src="./assets/me.jpg" alt="it's me">
+                <div class="contacts">
+                    <h2 class="mycontacts"><img class="icon" src="./assets/iconcontacts.png" alt="icon contacts"> MY
+                        CONTACTS</h2>
+
+                    <ul class="list">
+                        <li>email - kornishin97@mail.ru </li>
+                        <li>github - <a href="https://github.com/reizap">reizap</a> </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div>
+                <h2>ABOUT ME</h2>
+                <hr>
+                <div class="text">
+                    Hello, my name is Misha. I am 25 years old. I have been working as a system administrator for 4
+                    years
+                    now. Recently, I began to get very tired of work and people. I think it's time to stop.
+                </div>
+                <ul class="list">
+                    <li>erseverance</li>
+                    <li>sociability</li>
+                    <li>attentiveness</li>
+                    <li><s>and so on</s></li>
+                </ul>
+                <h2 id="skillz">SKILLZ</h2>
+                <hr>
+                <ul class="list">
+                    <li>bash </li>
+                    <li>powershell (CMD)</li>
+                    <li>Local Area Network Administration</li>
+                    <li>maybe c#?)</li>
+                </ul>
+                <h2 id="education">EDUCATION</h2>
+                <hr>
+                <div class="text">
+                    I graduated from kazan national research technological university in 2021. by specialty - Automation
+                    of
+                    information systems. I am currently enrolled in the rs_school course.
+                </div>
+                <h2>LANGUAGES</h2>
+                <hr>
+                <ul class="list">
+                    <li>English - A2</li>
+                    <li>Russian - Native</li>
+                </ul>
+                <h2>EXAMPLE CODE</h2>
+                <hr>
+                <pre>
+const areaOrPerimeter = function(l, w) {
+    let result;
+    if (l == w) {
+        result = l * w;
+        return result;
+    }
+else if (l > w || l < w ) {
+    result = (l + l) + (w + w);
+    return result;
+    }
+};
+                </pre>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <a href="https://rs.school/js/"><img src="./assets/rs_school_js.svg" width="70" height="70"
+                    alt="logo rs school"></a>
+            <a href="https://github.com/reizap"><img src="/assets/logogithub.png" width="30" height="30"
+                    alt="logo github"></a>
+            <div>2023</div>
+        </footer>
+    </div>
 </body>
+
 </html>
